@@ -1,0 +1,9 @@
+::-webkit-scrollbar {
+	@apply w-1.5 h-1 sm:w-0.5 sm:h-0.5 ;
+}
+::-webkit-scrollbar-track {
+	@apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+	@apply dark:bg-blue-700 bg-gray-500 cursor-pointer;
+}
